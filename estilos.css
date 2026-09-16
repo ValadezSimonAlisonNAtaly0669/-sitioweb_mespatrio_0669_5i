@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FAF5EF; 
+}
+h2, p {
+  margin: 0;
+}
+header { 
+  background-color: #630e0e;
+  padding: 25px 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+header h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+ul {
+  margin: 30px auto;
+  width: fit-content;/*para que los botones midan lo mismo de la barra*/
+  list-style-type: none;/*quita las viñetas*/
+  background-image: linear-gradient(to right, #25571a 50%, transparent 50%);
+  background-size: 200% 100%;/*para que e oscurezca al pasar el raton*/
+  background-position: right bottom;
+  transition: all 0.4s ease-out;/*para que sea mas fluido*/
+  padding: 0;
+  overflow: hidden;
+  background-color: #336e25;  
+  border-radius: 30px;/*redondear las esquinas*/
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  float: left;
+}
+ul li a {/*barra*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 27px 45px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+ul li a:hover {/*barra de navegacion*/
+  background-color: #25571a;
+  background-position: left bottom;
+}
+.seccion-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 40px; 
+  margin: 30px auto 0 auto;
+  padding: 0 40px 30px 40px;/*arriba, derecha, abajo, izquierda*/
+  max-width: 1000px;
+}
+.contenido-principal {
+  text-align: left; 
+  max-width: 450px;
+}
+.contenido-principal h2 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.titulo-rojo {
+  font-family: 'Fredoka', cursive, sans-serif;
+  color: #FF5252;
+  font-size: 75px;
+  line-height: 0.9;
+  margin: 10px 0;
+}
+.contenido-principal h6 {
+  font-size: 18px;
+  color: #555;
+  font-weight: normal;
+  margin: 15px 0 0 0;
+}
+.bloque-derecho {
+  display: flex;
+  flex-direction: column; /*acomoda verticalmente*/
+  align-items: flex-end;/*alinea hacia la derecha*/
+}
+.seccion-acerca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto 0 auto;
+  padding: 0 50px;
+  max-width: 1000px;
+}
+.marco-imagen {
+  border: 4px solid #D4B28C;
+  padding: 5px;
+  background-color: white;
+}
+.imagen-iglesia {
+  width: 320px;
+  height: auto;
+}
+.texto-acerca {
+  max-width: 500px;
+  text-align: left;
+}
+.texto-acerca h3 {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.texto-acerca p {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.texto-verde {
+  color: #2D6A4F;
+  font-weight: bold;
+}
+.seccion-personaje-detalle { /*contenedor*/
+  display: flex;
+  align-items: flex-start; /*flexible*/
+  justify-content: center;
+  gap: 40px;/*espacio automatico*/
+  padding: 0 50px; /*espacio interno: 0:arriba/abajo, 50:izquierda/derecha*/
+  max-width: 900px;/*ancho maximo*/
+  margin: 0 auto;
+  flex-direction: column;/*uno debajo de otro*/
+}
+.nombre-personaje {
+  font-family: 'Fredoka', cursive, sans-serif;
+  font-size: 22px;
+  color: #6b2d2d;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.img-hidalgo {
+  width: 250px;
+  height: auto;
+}
+.columna-derecha {
+  max-width: 500px;
+  text-align: left;
+  margin-top: 20px;
+}
+.columna-derecha p {
+  font-size: 17px;
+  color: #4A4A4A;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.texto-rojo-destacado {
+  color: #E74C3C;
+  font-weight: bold;
+}
+.img-morelos {
+  width: 250px;
+  height: auto;
+}
+.columna-izquierda {
+  max-width: 500px;
+  text-align: left; /*sentido del texto*/
+  margin-top: 20px;
+}
+.columna-izquierda p {
+  font-size: 17px;
+  color: #4A4A4A;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.img-allende {
+  width: 250px;/*ancho*/
+  height: auto;/*altura automatica*/
+}
+table {/*selecciona todas las tablas para el diseño*/
+  display: table !important;/*para que no se cambie nada y se haga esto*/
+  width: 100% !important;
+}
+td {
+  word-wrap: break-word;
+}
+footer { /*estilo*/
+  background-color: #630e0e;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  font-family: 'Fredoka', cursive, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: 40px;
+}
